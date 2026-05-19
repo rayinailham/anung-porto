@@ -82,6 +82,9 @@ html.lenis body {
   z-index: 70;
   pointer-events: none;
 }
+@media (max-width: 767px) {
+  .scroll-rail { display: none; }
+}
 .scroll-rail::after {
   content: '';
   position: absolute;
