@@ -69,6 +69,16 @@ html.lenis body {
 }
 
 /* ─────────────────────────────────────────────────────────────
+   INTRO LOCK — freeze the page beneath the welcome screen
+   ───────────────────────────────────────────────────────────── */
+html.intro-locked,
+html.intro-locked body {
+  overflow: clip !important;
+  height: 100%;
+  touch-action: none;
+}
+
+/* ─────────────────────────────────────────────────────────────
    CUSTOM SCROLLBAR — slim, ink-on-cream, fixed rail
    ───────────────────────────────────────────────────────────── */
 .scroll-rail {

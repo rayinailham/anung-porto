@@ -1,5 +1,6 @@
 <template>
   <div class="grain">
+    <IntroScreen />
     <NavBar />
     <ScrollProgress />
 
@@ -18,6 +19,7 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
 import ScrollProgress from './components/ScrollProgress.vue'
+import IntroScreen from './components/IntroScreen.vue'
 import Hero from './components/Hero.vue'
 import Marquee from './components/Marquee.vue'
 import About from './components/About.vue'

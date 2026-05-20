@@ -81,6 +81,22 @@
       <aside class="lg:col-span-4 flex flex-col gap-5 md:gap-6">
         <div class="bezel" data-reveal data-reveal-delay="2">
           <div class="bezel-core p-5 sm:p-6 relative overflow-hidden">
+            <!-- Portrait -->
+            <div class="relative -mx-5 sm:-mx-6 -mt-5 sm:-mt-6 mb-5 sm:mb-6 aspect-[4/3] overflow-hidden bg-cream-100">
+              <img
+                src="/image.jpg"
+                alt="Anung Hanindhita Ramadhan"
+                loading="eager"
+                decoding="async"
+                class="absolute inset-0 w-full h-full object-cover"
+              />
+              <div
+                aria-hidden="true"
+                class="pointer-events-none absolute inset-0"
+                style="background: linear-gradient(180deg, rgba(28,22,18,0) 55%, rgba(28,22,18,0.18) 100%);"
+              ></div>
+            </div>
+
             <div class="flex items-center justify-between">
               <span class="text-[10px] font-mono uppercase tracking-eyebrow text-espresso-700/50">// Now</span>
               <span class="inline-flex items-center gap-1.5 text-[10px] font-mono uppercase tracking-eyebrow text-sage-700">
